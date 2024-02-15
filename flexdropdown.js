@@ -1,19 +1,6 @@
-/* Flex Level Drop Down Menu
-* Created: Jan 5th, 2010 by DynamicDrive.com. This notice must stay intact for usage 
-* Author: Dynamic Drive at http://www.dynamicdrive.com/
-* Visit http://www.dynamicdrive.com/ for full source code
+/* 
+* GitHub
 */
-
-//Version 1.1 (Feb 19th, 2010): Each flex menu (UL) can now be associated with a link dynamically, and/or defined using JavaScript instead of as markup.
-//Version 1.2 (July 2nd, 2011): Menu updated to work properly in popular mobile devices such as iPad/iPhone and Android tablets.
-//Version 1.3 (Nov 28th, 2011): Script now dynamically adds a class of "selected" to the anchor link while its drop down menu is expanded, for easy styling of the anchor link during its "open" state.
-//Version 2.0 (April 16th, 2015): Adds mobile friendly, overlay version of menu that's activated in mobile and small screen browsers. Refines drop down menu behaviour when there's neither space to the right nor left to accommodate sub menu; in that case sub menu overlaps parent menu. Requires jquery 1.8+
-
-//Usage: $(elementselector).addflexmenu('menuid', options)
-//ie:
-//jQuery(document).ready(function($){
-	//$('a.mylinks').addflexmenu('flexmenu1') //apply flex menu with ID "flexmenu1" to links with class="mylinks"
-//})
 
 jQuery.noConflict()
 
