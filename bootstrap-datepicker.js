@@ -1,4 +1,4 @@
-(function( $ ) {
+/*github*/ (function( $ ) {
 
 	var $window = $(window);
 
